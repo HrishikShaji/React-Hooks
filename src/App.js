@@ -1,4 +1,5 @@
 import './App.css';
+import UseCallBackHook from './components/UseCallBackHook';
 import UseContextHook from './components/UseContextHook';
 import UseEffectHook from './components/UseEffectHook';
 import UseImperativeHandleHook from './components/UseImperativeHandleHook';
@@ -21,6 +22,7 @@ function App() {
     <UseImperativeHandleHook/>
     <UseContextHook/>
     <UseMemo/>
+    <UseCallBackHook/>
     </div>
   );
 }
